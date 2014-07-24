@@ -10,7 +10,7 @@ public class Config {
 	public static String LOGOUT_MESSAGE = "Click here to logout!";
 	public static String DEATH_MESSAGE = "Oh dear you are dead!";
 	public static boolean DOUBLE_EXP = true;
-	public static final double SUMMONING_EXP_BONUS = 2.4;
+	public static final double SUMMONING_EXP_BONUS = 1;
 	public static String SERVER_NAME = "Parabot";
 	public static String WELCOME_MESSAGE = "Parabot";
 	public static String FORUMS = "www.Parabot.org";
