@@ -2237,7 +2237,7 @@ public class Commands implements PacketType {
 		}
 		if (playerCommand.startsWith("overload")) {
 			for (int i = 0; i < 7; i++) {
-				c.playerLevel[i] = 200;
+				c.playerLevel[i] = 2000;
 				c.getPA().refreshSkill(i);
 				c.playerLevel[5] = 2000;
 				c.getPA().refreshSkill(5);
