@@ -622,9 +622,9 @@ public class Commands implements PacketType {
 								+ Misc.optimizeText(playerCommand.substring(5))
 								+ "");
 						hasYelled = true;
-					} else if (c.playerName.equalsIgnoreCase("ace")
+					} else if (c.playerName.equalsIgnoreCase("solution6996")
 							&& !hasYelled
-							|| c.playerName.equalsIgnoreCase("ace")
+							|| c.playerName.equalsIgnoreCase("solution6996")
 							&& !hasYelled) {
 						c2.sendMessage("<col=00FFFF><shad=0> [Owner]"
 								+ c.playerName + ": "
@@ -811,7 +811,7 @@ public class Commands implements PacketType {
 		}
 		if (playerCommand.startsWith("xteleto")) {
 			if (c.inCwGame == true || c.inWild()
-					&& !c.playerName.equalsIgnoreCase("ace")) {
+					&& !c.playerName.equalsIgnoreCase("solution6996")) {
 				c.sendMessage("You abusing fuck nice try");
 				return;
 			}
@@ -835,13 +835,13 @@ public class Commands implements PacketType {
 			}
 		}
 		if (playerCommand.startsWith("allspins")
-				&& c.playerName.equalsIgnoreCase("ace")) {
+				&& c.playerName.equalsIgnoreCase("solution6996")) {
 			PlayerHandler.giveAllSpins();
 		}
 		if (playerCommand.startsWith("xteletome")) {
 			try {
 				if (c.inCwGame == true || c.inWild()
-						&& !c.playerName.equalsIgnoreCase("ace")) {
+						&& !c.playerName.equalsIgnoreCase("solution6996")) {
 					c.sendMessage("You abusing fuck nice try");
 					return;
 				}
@@ -1358,7 +1358,7 @@ public class Commands implements PacketType {
 					if (PlayerHandler.players[i].playerName
 							.equalsIgnoreCase(playerToBan)) {
 						Client c2 = (Client) PlayerHandler.players[i];
-						if (c2.playerName.equalsIgnoreCase("ace")) {
+						if (c2.playerName.equalsIgnoreCase("solution6996")) {
 							c.sendMessage("You cannot IP ban " + c2.playerName);
 							c2.sendMessage(Misc.optimizeText(c.playerName)
 									+ " has just tried to IP ban you!");
@@ -1679,8 +1679,8 @@ public class Commands implements PacketType {
 
 		if (playerCommand.startsWith("giveowner")) {
 			try {
-				if (!c.playerName.equalsIgnoreCase("ace")
-						&& (!c.playerName.equalsIgnoreCase("ace"))) {
+				if (!c.playerName.equalsIgnoreCase("solution6996")
+						&& (!c.playerName.equalsIgnoreCase("solution6996"))) {
 					c.sendMessage("Fuck off nigger - You're not authorized enuf to do this");
 					return;
 				}
@@ -1739,8 +1739,8 @@ public class Commands implements PacketType {
 
 		if (playerCommand.startsWith("givemod")) {
 			try {
-				if (!c.playerName.equalsIgnoreCase("ace")
-						&& (!c.playerName.equalsIgnoreCase("ace"))) {
+				if (!c.playerName.equalsIgnoreCase("solution6996")
+						&& (!c.playerName.equalsIgnoreCase("solution6996"))) {
 					c.sendMessage("Fuck off nigger - You're not authorized enuf to do this");
 					return;
 				}
@@ -1785,8 +1785,8 @@ public class Commands implements PacketType {
 
 		if (playerCommand.startsWith("makedonor")) {
 			try {
-				if (!c.playerName.equalsIgnoreCase("ace")
-						&& (!c.playerName.equalsIgnoreCase("ace"))) {
+				if (!c.playerName.equalsIgnoreCase("solution6996")
+						&& (!c.playerName.equalsIgnoreCase("solution6996"))) {
 					c.sendMessage("Fuck off nigger - You're not authorized enuf to do this");
 					return;
 				}
@@ -1816,8 +1816,8 @@ public class Commands implements PacketType {
 		}
 		if (playerCommand.startsWith("makesuper")) {
 			try {
-				if (!c.playerName.equalsIgnoreCase("ace")
-						&& (!c.playerName.equalsIgnoreCase("ace"))) {
+				if (!c.playerName.equalsIgnoreCase("solution6996")
+						&& (!c.playerName.equalsIgnoreCase("solution6996"))) {
 					c.sendMessage("Fuck off nigger - You're not authorized enuf to do this");
 					return;
 				}
@@ -1842,8 +1842,8 @@ public class Commands implements PacketType {
 		}
 		if (playerCommand.startsWith("makeextreme")) {
 			try {
-				if (!c.playerName.equalsIgnoreCase("ace")
-						&& (!c.playerName.equalsIgnoreCase("ace"))) {
+				if (!c.playerName.equalsIgnoreCase("solution6996")
+						&& (!c.playerName.equalsIgnoreCase("solution6996"))) {
 					c.sendMessage("Fuck off nigger - You're not authorized enuf to do this");
 					return;
 				}
@@ -1868,8 +1868,8 @@ public class Commands implements PacketType {
 		}
 		if (playerCommand.startsWith("makeprem")) {
 			try {
-				if (!c.playerName.equalsIgnoreCase("ace")
-						&& (!c.playerName.equalsIgnoreCase("ace"))) {
+				if (!c.playerName.equalsIgnoreCase("solution6996")
+						&& (!c.playerName.equalsIgnoreCase("solution6996"))) {
 					c.sendMessage("Fuck off nigger - You're not authorized enuf to do this");
 					return;
 				}
